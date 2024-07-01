@@ -7,5 +7,6 @@ export default defineConfig({
   base:'/my-expensetracker/',
   build:{
     chunkSizeWarningLimit:1000,
+    outDir:'dist'
   }
 })
